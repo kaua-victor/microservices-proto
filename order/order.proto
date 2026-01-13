@@ -15,6 +15,7 @@ message OrderItem  {
 
 message CreateOrderResponse {
     int32 order_id = 1;
+    string status = 2;
 }
 
 service Order {
